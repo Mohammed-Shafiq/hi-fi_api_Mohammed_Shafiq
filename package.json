@@ -1,0 +1,21 @@
+{
+  "name": "hifi_api",
+  "version": "1.0.0",
+  "description": "API delen til Hi-Fi projekt",
+  "main": "app.js",
+  "dependencies": {
+    "mysql2": "^1.4.2",
+    "restify": "^6.3.1",
+    "restify-cors-middleware": "^1.0.1",
+    "nodemon": "^1.12.1"
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+    
+  },
+  "author": "Mohammed A. Shafiq",
+  "license": "ISC"
+}
